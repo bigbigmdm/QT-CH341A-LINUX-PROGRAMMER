@@ -1,0 +1,3 @@
+# QT-CH341A-LINUX-PROGRAMMER
+Programmer tools use CH341A EEPROM programmer for 24C01 ... 24C1024 chip.
+This Programm use the QhexEditor from .... and ....
