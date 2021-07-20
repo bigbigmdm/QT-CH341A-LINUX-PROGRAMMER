@@ -5,4 +5,4 @@ and ch341 c-programmer tools from https://github.com/command-tab/ch341eeprom
 
 I have modified the GUI in QhexEditor. I added buttons to read from eeprom, save to eeprom and programmer information menu.
 
-![WinChipHead CH341A based programmer](https://github.com/bigbigmdm/QT-CH341A-LINUX-PROGRAMMER/tree/main/screenshot/prog24_screen.png)
+![CH341A EEPROM programmer](https://github.com/bigbigmdm/QT-CH341A-LINUX-PROGRAMMER/tree/main/screenshot/prog24_screen.png)
