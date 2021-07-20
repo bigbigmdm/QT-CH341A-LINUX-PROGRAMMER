@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Prog24cXX
+Exec=./prog24
+Type=Application
+StartupNotify=true
+Path=/home/mimi/PROG24/
+Icon=/home/mimi/PROG24/24Cxx_icon64.png
+Name[ru_RU.UTF-8]=Prog24cXX
