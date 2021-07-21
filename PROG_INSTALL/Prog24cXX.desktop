@@ -1,8 +1,12 @@
 [Desktop Entry]
 Name=Prog24cXX
+Name[ru]=Программатор 24Схх
+Comment=24Cxx programming tool for the CH341A USB-programmer
+Comment[ru]=Проррамматор микросхем 24Cxx для CH341A USB-programmer
 Exec=./prog24
 Type=Application
 StartupNotify=true
 Path=/home/mimi/PROG24/
 Icon=/home/mimi/PROG24/24Cxx_icon64.png
-Name[ru_RU.UTF-8]=Prog24cXX
+Encoding=UTF-8
+Categories=Application;Electronics;
