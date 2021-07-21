@@ -11,7 +11,7 @@ cp 24Cxx_icon64.png ~/PROG24/
 cp 24Cxx_icon48.png ~/PROG24/
 cp 24Cxx_icon32.png ~/PROG24/
 cp 99-CH341.rules ~/PROG24/
-cd  ~/Prog24cXX/
+cd  ~/PROG24/
 if [ -e $HOME/"Рабочий стол" ]; then 
 cp Prog24cXX.desktop $HOME/"Рабочий стол"/
 fi
