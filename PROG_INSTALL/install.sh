@@ -1,5 +1,7 @@
 #!/bin/bash
 dir=$(pwd)
+userhome=$HOME
+su
 if ! [ -e /opt/PROG24 ]; then
 mkdir /opt/PROG24
 fi
@@ -11,11 +13,11 @@ cp 24Cxx_icon48.png /opt/PROG24
 cp 24Cxx_icon32.png /opt/PROG24
 cp 99-CH341.rules /opt/PROG24
 cd  /opt/PROG24
-if [ -e $HOME/"Рабочий стол" ]; then 
+if [ -e $userhome/"Рабочий стол" ]; then 
 cp Prog24cXX.desktop $HOME/"Рабочий стол"
 fi
-if [ -e $HOME/Desktop ]; then 
-cp Prog24cXX.desktop $HOME/Desktop
+if [ -e $userhome/Desktop ]; then 
+cp Prog24cXX.desktop $userhome/Desktop
 fi
 cp Prog24cXX.desktop /usr/share/applications
 cp 24Cxx_icon64.png /usr/share/pixmaps/
