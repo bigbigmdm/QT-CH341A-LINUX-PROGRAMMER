@@ -17,5 +17,6 @@ fi
 if [ -e $HOME/Desktop ]; then 
 cp Prog24cXX.desktop $HOME/Desktop
 fi
+cp Prog24cXX.desktop /usr/share/applications
 cp 99-CH341.rules /etc/udev/rules.d
 chmod 777 *
