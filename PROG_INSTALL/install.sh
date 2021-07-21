@@ -18,5 +18,8 @@ if [ -e $HOME/Desktop ]; then
 cp Prog24cXX.desktop $HOME/Desktop
 fi
 cp Prog24cXX.desktop /usr/share/applications
+cp 24Cxx_icon64.png /usr/share/pixmaps/
+cp 24Cxx_icon48.png /usr/share/pixmaps/
+cp 24Cxx_icon32.png /usr/share/pixmaps/
 cp 99-CH341.rules /etc/udev/rules.d
 chmod 777 *
