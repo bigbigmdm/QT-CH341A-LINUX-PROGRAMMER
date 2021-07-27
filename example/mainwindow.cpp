@@ -721,6 +721,8 @@ int MainWindow::writeActBt()
 
                  ans_info = init_ch341();
                  pr_error = pr_error + ans_info.ans_txt;
+                 if (ans_info.ans_byte == 1)
+                         {
 //while bytes
                  pr_error = pr_error + "\nWritting to EEPROM\n";
                  programmer->setTxt(pr_error);
@@ -794,7 +796,13 @@ int MainWindow::writeActBt()
 
                      }
 
-
+}
+                 else //ans_info.ans_byte -->0
+                    {
+                    //BAR --> HIDDEN, IMAGE --> OFF
+                    programmer->setImg(false);
+                    programmer->barNotshowing();
+                    }
 
 //CLOSE DEVICE
     if (byteoffset>0)
