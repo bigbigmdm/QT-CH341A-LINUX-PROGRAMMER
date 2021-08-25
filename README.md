@@ -13,4 +13,4 @@ I have modified the GUI in QhexEditor. I added buttons to read from eeprom, save
 3. For reading from chip select the 'Read from EEPROM' item.
 4. For saving the dump press the diskette button and setting the name of file.
 5. For open the existing file press the folder icon and select the file.
-6. For writing the dump to EEPROM press the 'Wirte to EEPROM'' buttom.
+6. For writing the dump to EEPROM press the 'Wirte to EEPROM' buttom.
