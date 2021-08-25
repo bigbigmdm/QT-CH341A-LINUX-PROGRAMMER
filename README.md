@@ -10,7 +10,7 @@ I have modified the GUI in QhexEditor. I added buttons to read from eeprom, save
  Easy steps to use:
  1. Connent your CH341A Programmer device into usb port.
 2. Select the EEPROM chip in menu - 24C01, 24C02 ...24C512.
-3. For reading from chip select the 'Read fromm EEPROM' item.
+3. For reading from chip select the 'Read from EEPROM' item.
 4. For saving the dump press the diskette button and setting the name of file.
 5. For open the existing file press the folder icon and select the file.
 6. For writing the dump to EEPROM press the 'Wirte to EEPROM'' buttom.
