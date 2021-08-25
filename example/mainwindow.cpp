@@ -305,7 +305,13 @@ void MainWindow::dropEvent(QDropEvent *event)
 void MainWindow::about()
 {
    QMessageBox::about(this, tr("About QHexEdit"),
-            tr("The QHexEdit example is a short Demo of the QHexEdit Widget."));
+            tr("The Prog24 is a free I2C EEPROM programmer tools. The program use the CH341A programmer device. Easy steps to use:\n "
+               "1. Connent your CH341A Programmer device into usb port.\n"
+               "2. Select the EEPROM chip in menu - 24C01, 24C02 ...24C512.\n"
+               "3. For reading from chip select the 'Read from EEPROM' item.\n"
+               "4. For saving the dump press the diskette button and setting the name of file.\n"
+               "5. For open the existing file press the folder icon and select the file.\n"
+               "6. For writing the dump to EEPROM press the 'Write to EEPROM'' buttom."));
 }
 
 void MainWindow::dataChanged()
@@ -521,7 +527,7 @@ int MainWindow::readActBt()
         uint8_t ch341outBuffer[EEPROM_READ_BULKOUT_BUF_SZ];
         uint8_t ch341inBuffer[IN_BUF_SZ];
         int readpktcount = 0;
-        uint32_t bytestoread;        
+        uint32_t bytestoread;
         struct libusb_transfer *xferBulkIn, *xferBulkOut;
         struct timeval tv = {0, 100};                   // our async polling interval
         struct EEPROM eeprom_info;
@@ -1135,5 +1141,3 @@ void MainWindow::writeSettings()
     settings.setValue("pos", pos());
     settings.setValue("size", size());
 }
-
-
