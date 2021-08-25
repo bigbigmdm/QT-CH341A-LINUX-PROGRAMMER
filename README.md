@@ -6,6 +6,7 @@ and ch341 c-programmer tools  (autor: Collin Allen) from https://github.com/comm
 I have modified the GUI in QhexEditor. I added buttons to read from eeprom, save to eeprom and programmer information menu.
 
 ![CH341A EEPROM programmer](https://github.com/bigbigmdm/QT-CH341A-LINUX-PROGRAMMER/raw/main/screenshot/prog24_screen.png)
+ 
  Easy steps to use:
  1. Connent your CH341A Programmer device into usb port.
 2. Select the EEPROM chip in menu - 24C01, 24C02 ...24C512.
