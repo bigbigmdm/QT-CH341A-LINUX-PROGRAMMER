@@ -2,11 +2,11 @@
 Name=Prog24cXX
 Name[ru]=Программатор 24Схх
 Comment=24Cxx programming tool for the CH341A USB-programmer
-Comment[ru]=Проррамматор микросхем 24Cxx для CH341A USB-programmer
-Exec=./prog24
+Comment[ru]=Программатор микросхем 24Cxx для CH341A USB-programmer
+Exec=/opt/PROG24/prog24
 Type=Application
 StartupNotify=true
 Path=/opt/PROG24/
 Icon=/opt/PROG24/24Cxx_icon64.png
 Encoding=UTF-8
-Categories=Application;Electronics;
+Categories=Application;Development;
