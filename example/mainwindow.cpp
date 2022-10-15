@@ -837,7 +837,7 @@ void MainWindow::programmerActBt()
     programmer->show();
     pr_error = "";
     programmer->setTxt(pr_error);
-    programmer->setImg(FALSE);
+    programmer->setImg(false);
 
     //init ch341 programmer, get informations about this programmer
     ans_info = init_ch341();
