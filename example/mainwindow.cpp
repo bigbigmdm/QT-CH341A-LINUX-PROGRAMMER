@@ -595,6 +595,7 @@ int MainWindow::readActBt()
               programmer->setTxt(pr_error);
 
                  while (1) {
+                    QApplication::processEvents();
                     a.setValue(100*byteoffset/bytestoread);
                     ret = libusb_handle_events_timeout(NULL, &tv);
                         if (ret < 0 || getnextpkt == -1) {          // indicates an error
@@ -754,7 +755,8 @@ int MainWindow::writeActBt()
                          uint8_t *i2cBufPtr = i2cCmdBuffer;
                          while(page_size_left) {
                              uint8_t to_write = qMin(page_size_left, con28);
-  a.setValue(100*byteoffset/chipsize);
+                             a.setValue(100*byteoffset/chipsize);
+                             QApplication::processEvents();
                              *outptr++ = mCH341A_CMD_I2C_STREAM;
                              if (part_no == 0) { // Start packet
                                  *outptr++ = mCH341A_CMD_I2C_STM_STA;

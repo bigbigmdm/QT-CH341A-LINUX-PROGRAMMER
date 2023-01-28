@@ -49,6 +49,7 @@ OTHER_FILES += \
 
 TRANSLATIONS += \
     translations/qhexedit_cs.ts \
-    translations/qhexedit_de.ts
+    translations/qhexedit_de.ts \
+    translations/qhexedit_ru.ts
 
 DEFINES += QHEXEDIT_EXPORTS

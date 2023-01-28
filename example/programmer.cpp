@@ -40,7 +40,8 @@ void Programmer::setValue(int val_bar)
 
 void Programmer::setTxt(QString prog_txt)
 {
- ui->label_3->setText(prog_txt);
+    ui->textEdit->append(prog_txt);
+    ui->textEdit->ensureCursorVisible();
 }
 
 void Programmer::setImg(bool img)
@@ -72,7 +73,7 @@ Programmer::Programmer(QWidget *parent) :
 
   ui->setupUi(this);
 
-  ui->label_3->setText("Found..");
+  ui->textEdit->append("Found..");
   ui->progressBar->setMaximum(100);
   ui->progressBar->setValue(0);
   ui->label->setPixmap(pix_on);
