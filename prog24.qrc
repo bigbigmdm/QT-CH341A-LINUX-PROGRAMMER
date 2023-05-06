@@ -1,16 +1,16 @@
 <RCC>
     <qresource prefix="/">
-        <file>images/open.png</file>
-        <file>images/save.png</file>
-        <file>images/undo.png</file>
-        <file>images/redo.png</file>
-        <file>images/find.png</file>
-        <file>images/qhexedit.ico</file>
-        <file>images/read.png</file>
-        <file>images/write.png</file>
-        <file>images/chip_type.png</file>
-        <file>images/ch341_to_form_150_150.png</file>
-        <file>images/not_found.png</file>
-        <file>images/24Cxx_icon64.ico</file>
+        <file>resources/open.png</file>
+        <file>resources/save.png</file>
+        <file>resources/undo.png</file>
+        <file>resources/redo.png</file>
+        <file>resources/find.png</file>
+        <file>resources/qhexedit.ico</file>
+        <file>resources/read.png</file>
+        <file>resources/write.png</file>
+        <file>resources/chip_type.png</file>
+        <file>resources/ch341_to_form_150_150.png</file>
+        <file>resources/not_found.png</file>
+        <file>resources/24Cxx_icon64.ico</file>
     </qresource>
 </RCC>
