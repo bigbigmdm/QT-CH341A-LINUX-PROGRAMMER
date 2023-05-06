@@ -7,7 +7,19 @@ This is a GUI program based on QhexEditor, which adds EEPROM read/write buttons 
 
 ![CH341A EEPROM programmer](screenshot/prog24.gif)
 
+## Building
+
+```
+mkdir build
+cd build
+cmake ..
+make -j4
+sudo make install
+```
+
 ## Usage
+
+Run the `prog24` executable and do the following:
 
 1. Insert the EEPROM 24Cxx chip in the correct place in the socket of the programmer. See the picture on the PCB of the programmer for information.
 
