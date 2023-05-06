@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 
-#include "../src/qhexedit.h"
+#include "qhexedit.h"
 #include "optionsdialog.h"
 #include "searchdialog.h"
 #include "eepromsize.h"

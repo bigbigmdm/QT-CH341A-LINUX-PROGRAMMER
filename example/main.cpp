@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[])
 {
-    Q_INIT_RESOURCE(qhexedit);
+    //Q_INIT_RESOURCE(qhexedit);
     QApplication app(argc, argv);
     app.setApplicationName("24Cxx Programmer");
     app.setOrganizationName("24Cxx Programmer");

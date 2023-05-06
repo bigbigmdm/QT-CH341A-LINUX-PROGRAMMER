@@ -1,6 +1,6 @@
 # I2C EEPROM programmer
 
-The Prog24 is a free I2C EEPROM programmer tool for CH341A device based on [QhexEditor](https://github.com/qingfengxia/qhexedit) and
+The Prog24 is a free I2C EEPROM programmer tool for CH341A device based on [QhexEdit2](https://github.com/Simsys/qhexedit2) and
 [ch341 c-programmer tools](https://github.com/command-tab/ch341eeprom).
 
 This is a GUI program based on QhexEditor, which adds EEPROM read/write buttons and programmer information menu.

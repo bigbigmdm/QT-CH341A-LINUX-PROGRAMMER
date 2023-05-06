@@ -19,12 +19,13 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 find_package(LibUSB REQUIRED)
 find_package(Qt5 REQUIRED COMPONENTS Core Widgets)
 
+# ch341eeprom?
 add_executable(${PROJECT_NAME}
 	example/mainwindow.h
 	example/optionsdialog.h
-	src/qhexedit.h
-	src/chunks.h
-	src/commands.h
+	ThirdParty/qhexedit2/src/qhexedit.h
+	ThirdParty/qhexedit2/src/commands.h
+    ThirdParty/qhexedit2/src/chunks.h
 	example/searchdialog.h
 	example/eepromsize.h
 	example/programmer.h
@@ -32,13 +33,13 @@ add_executable(${PROJECT_NAME}
 	example/main.cpp
 	example/mainwindow.cpp
 	example/optionsdialog.cpp
-	src/qhexedit.cpp
-	src/chunks.cpp
-	src/commands.cpp
+	ThirdParty/qhexedit2/src/qhexedit.cpp
+	ThirdParty/qhexedit2/src/commands.cpp
+    ThirdParty/qhexedit2/src/chunks.cpp
 	example/searchdialog.cpp
 	example/eepromsize.cpp
 	example/programmer.cpp
-	example/qhexedit.qrc
+    example/${PROJECT_NAME}.qrc
 	example/optionsdialog.ui
 	example/searchdialog.ui
 	example/eepromsize.ui
@@ -48,6 +49,7 @@ add_executable(${PROJECT_NAME}
 	example/translations/qhexedit_ru.ts)
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE QHEXEDIT_EXPORTS)
+target_include_directories(${PROJECT_NAME} PRIVATE ThirdParty/qhexedit2/src)
 target_include_directories(${PROJECT_NAME} PRIVATE ${LibUSB_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets ${LibUSB_LIBRARIES})
 
