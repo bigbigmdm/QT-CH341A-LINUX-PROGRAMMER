@@ -1,0 +1,6 @@
+[submodule "ThirdParty/ch341eeprom"]
+	path = ThirdParty/ch341eeprom
+	url = https://github.com/command-tab/ch341eeprom
+[submodule "ThirdParty/qhexedit2"]
+	path = ThirdParty/qhexedit2
+	url = https://github.com/Simsys/qhexedit2.git
