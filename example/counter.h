@@ -1,3 +1,6 @@
+#ifndef COUNTER_H
+#define COUNTER_H
+
 #include <QObject>
 
  class Counter : public QObject
@@ -18,3 +21,5 @@
  private:
      int m_value;
  };
+
+#endif // COUNTER_H
