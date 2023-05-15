@@ -513,6 +513,8 @@ void MainWindow::init()
 
     setUnifiedTitleAndToolBarOnMac(true);
     hexEdit->setData(buf);
+
+    setWindowTitle("I2C EEPROM Programmer");
 }
 //
 int MainWindow::readActBt()
