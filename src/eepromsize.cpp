@@ -37,13 +37,13 @@ void EepromSize::accept()
 }
 
 
-void EepromSize::on_listWidget_clicked()
+void EepromSize::listWidget_clicked()
 {
 
     QString chipmodel = ui->listWidget->currentItem()->text();
 //    QMessageBox::about(this, "EEPROM type:", chipmodel );
 
-    emit on_listWidget_click(chipmodel);
+    emit listWidget_click(chipmodel);
 
 }
 
