@@ -980,7 +980,7 @@ void MainWindow::createStatusBar()
     lbChipType->setMinimumWidth(50);
     lbChipType->setText("24c01");
     statusBar()->addPermanentWidget(lbChipType);
-    connect(eepromSize, SIGNAL(on_listWidget_click(QString)), this, SLOT(setChipType(QString)));
+    connect(eepromSize, SIGNAL(listWidget_click(QString)), this, SLOT(setChipType(QString)));
 //
     // Address Label
     lbAddressName = new QLabel();
