@@ -1,7 +1,9 @@
 #ifndef EEPROMSIZE_H
 #define EEPROMSIZE_H
+#include <QMainWindow>
 #include <QDialog>
 #include <QtCore>
+#include <QMouseEvent>
 #include "qhexedit.h"
 
 namespace Ui {
