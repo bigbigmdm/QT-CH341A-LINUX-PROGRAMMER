@@ -19,14 +19,13 @@ public:
 
 public slots:
     virtual void accept();
-    void listWidget_clicked();
+    
 signals:    
     void listWidget_click(QString chiptext);
 
 private slots:
-
     void on_buttonBox_accepted();
-
+    void listWidget_clicked();
 
 private:
 
