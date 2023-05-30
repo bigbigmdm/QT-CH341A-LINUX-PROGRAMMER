@@ -31,6 +31,8 @@ void EepromSize::show()
 void EepromSize::accept()
 {
     emit accepted();
+    QString chipmodel = ui->listWidget->currentItem()->text();
+    emit listWidget_click(chipmodel);
 //    QString Size = EepromSize::on_listWidget_clicked;
 //    QMessageBox::about(this, "EEPROM type:", "dddd" );
     QDialog::hide();
@@ -40,10 +42,10 @@ void EepromSize::accept()
 void EepromSize::listWidget_clicked()
 {
 
-    QString chipmodel = ui->listWidget->currentItem()->text();
+    //QString chipmodel = ui->listWidget->currentItem()->text();
 //    QMessageBox::about(this, "EEPROM type:", chipmodel );
 
-    emit listWidget_click(chipmodel);
+   // emit listWidget_click(chipmodel);
 
 }
 
