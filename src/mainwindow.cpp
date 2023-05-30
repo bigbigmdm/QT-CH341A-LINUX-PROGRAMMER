@@ -974,7 +974,7 @@ void MainWindow::createStatusBar()
     lbChipTypeName = new QLabel();
     lbChipTypeName->setText(tr("Chip:"));
     statusBar()->addPermanentWidget(lbChipTypeName);
-    lbChipType = new QLabel();
+    lbChipType = new QLabel(); 
     lbChipType->setFrameShape(QFrame::Panel);
     lbChipType->setFrameShadow(QFrame::Sunken);
     lbChipType->setMinimumWidth(50);
