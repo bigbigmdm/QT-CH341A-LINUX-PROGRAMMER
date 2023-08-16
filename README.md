@@ -37,3 +37,6 @@ Run the `prog24` executable and do the following:
 6. For open the existing file press the folder icon ![load](screenshot/open.png)   and select the file.
 
 7. For writing the dump to EEPROM press the 'Write to EEPROM' ![write](screenshot/write.png) button.
+
+See also my universal CH341a linux programmer for 24xxx, 25xxx, 93xxx chips - [IMSProg](https://github.com/bigbigmdm/IMSProg) and my SPI chip programmer - [CH341a_spi_programmer](https://github.com/bigbigmdm/CH341a_spi_programmer).
+
