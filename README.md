@@ -13,7 +13,6 @@ This is a GUI program based on QhexEditor, which adds EEPROM read/write buttons 
 mkdir build
 cd build
 cmake ..
-cd ..
 make -j4
 sudo make install
 ```
