@@ -37,5 +37,5 @@ Run the `prog24` executable and do the following:
 
 7. For writing the dump to EEPROM press the 'Write to EEPROM' ![write](screenshot/write.png) button.
 
-See also my universal CH341a linux programmer for 24xxx, 25xxx, 45xxx, 93xxx, 95xxx chips - [IMSProg](https://github.com/bigbigmdm/IMSProg) and my SPI chip programmer - [CH341a_spi_programmer](https://github.com/bigbigmdm/CH341a_spi_programmer).
+See also my universal CH341a linux programmer for 24xxx, 25xxx, 45xxx, 93xxx, 95xxx chips - [IMSProg](https://github.com/bigbigmdm/IMSProg) and my SPI chip programmer - [CH341a_spi_programmer](https://github.com/bigbigmdm/CH341a_spi_programmer) and my SFP-module programmer - [SFP-Master](https://github.com/bigbigmdm/SFP-Master).
 
